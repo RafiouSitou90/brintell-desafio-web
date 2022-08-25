@@ -1,0 +1,5 @@
+export { Home } from './Home'
+export { CreateStudent } from './Student'
+export { Map } from './Map'
+export { Dashboard } from './Dashboard'
+export { PageNotFound } from './Errors'
