@@ -89,7 +89,7 @@ const CreateStudent = () => {
 
                                     <div className="form-group mb-3">
                                         <label htmlFor="cpf">Cpf</label>
-                                        <TextInput id="cpf" name={'cpf'} type={'text'} placeholder={'000.000.000-00'} register={register} error={errors.email && errors.email.message} />
+                                        <TextInput id="cpf" name={'cpf'} type={'text'} placeholder={'000.000.000-00'} register={register} error={errors.cpf && errors.cpf.message} />
                                     </div>
 
                                     <div className="form-group mb-3">
